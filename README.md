@@ -100,7 +100,7 @@ chown -Rf www-data:www-data test-comercio
 Transbank recomienda en su manual oficial otra combinación de permisos, la cual puedes consultar en el manual de integración oficial.
 
 
-## 4. Asignación de permisos
+## 4. Asignación de permisos de RED
 Por ultimo solamente Transbank debe poder acceder a los “cgi”, por lo que se debe aplicar restricciones a nivel de red, para que ningún otro usuario tenga acceso a esos archivos.
 
 
