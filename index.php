@@ -12,17 +12,18 @@
   $TBK_MONTO = 10000;
   $TBK_ORDEN_COMPRA = $oc;
 
-  /****************** CONFIGURACION *******************/
+  /* configurar
+   ------------------------------------------------------ */
   $myPath     = "webpay/log/comun/dato".$oc.".log";
-  /****************** FIN CONFIGURACION *****************/ 
+  //------------------------------------------------------/
+
   //Grabado de datos en archivo de transaccion      
   $fic = fopen($myPath, "w+");     
-  $fechalog=strftime("%d-%m-%YT%T");
-  $linea=" $fechalog;$TBK_MONTO;$oc";     
+  $fechalog = strftime("%d-%m-%YT%T");
+  $linea = " $fechalog;$TBK_MONTO;$oc";     
   fwrite ($fic,$linea);     
   fclose($fic);
 ?>
-
 
 <html>
 <head>
