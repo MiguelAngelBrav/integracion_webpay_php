@@ -1,0 +1,23 @@
+==>paso 01  
+==>paso 02  
+==>paso 03  
+==>paso 04  
+==>paso 05  
+==>paso 06  
+==>paso 07  
+==>paso 08  
+==>paso 09  
+==>paso 10  
+==>TBK_RESPUESTA: 0  
+==>TBK_MONTO: 10000  
+==>monto: 10000  
+==>TBK_ORDEN_COMPRA: OC_20151209101314  
+==>ordenCompra: OC_20151209101314  
+==>paso 12  
+==>paso 14  
+==>paso 16  
+==>paso 17  
+==>paso 18  
+==>paso 19  
+CORRECTO 
+==>paso 21  
